@@ -55,3 +55,8 @@ git status
 #make README.txt.Edit file and then change file type to README.md
 git add READMe.md
 git commit -m "Add initial project files and README.md"
+#move venv1 into the folder
+touch .gitignore
+#edit .gitignore in vscode and put venv1/
+git push -u origin main
+
